@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/cardview_dark_background"
-        android:text="项目源码地址："
+        android:text="@string/addressLabel"
         android:textSize="18sp"
         />
     <TextView
@@ -18,8 +18,8 @@
         android:layout_marginTop="32dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorAccent"
-        android:text="here is project address"
+        android:textColor="@color/cardview_dark_background"
+        android:text="@string/projectAddress"
         android:textSize="16sp"
         />
 

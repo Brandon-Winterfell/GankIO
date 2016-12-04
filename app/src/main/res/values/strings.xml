@@ -2,4 +2,6 @@
     <string name="app_name">GankIO</string>
     <string name="action_settings">Settings</string>
     <string name="action_save">保存</string>
+    <string name="addressLabel">项目源码地址：</string>
+    <string name="projectAddress">https://github.com/Brandon-Winterfell/GankIO</string>
 </resources>
