@@ -105,7 +105,9 @@ public class fragmentAndroid extends Fragment
         SharedPreferences spf = context.getSharedPreferences("androidSharedPreferences", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = spf.edit();
 
-        // int oldSize = mOldSelected.size(); // 在后面追加就好了 // 那判断又不一样了
+        // int oldSize = mOldSelected.size();
+        // 在后面追加就好了 // 那判断又不一样了 int i=oldSize
+        // 而且保存后没有置空newSelected  生命周期  用户返回这个界面了 newSelected的处理 重新取一遍？
         int newSize = newSelected.size();
         editor.putInt("android_Status_size", newSize);
 

@@ -49,11 +49,8 @@ public class fragmentGirl extends Fragment
     private SwipeRefreshLayout mSwipeRefreshLayout;
 
     private RecyclerView mRecyclerView;
-
     private LinearLayoutManager mLinearLayoutManager;
-
     private List<Girl> mGirlList = new ArrayList<>();
-
     private MyAdapter mMyAdapter;
 
     private int lastVisibleItem;
